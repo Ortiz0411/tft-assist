@@ -16,6 +16,7 @@ class LobbySynergies:
 @dataclass()
 class GameState:
     """ Current state of the game """
+
     level: int
     gold: int
     health: int
