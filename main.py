@@ -44,7 +44,7 @@ def main():
     evaluator = CompositionEvaluator()
     ranker = CompositionRanker(evaluator)
 
-    results = ranker.rank(game_state, comps)
+    results = ranker.rank(game_state, comps, "Fast8")
 
     for r in results:
         print(f"{r.composition_name} → {r.score}")

@@ -8,12 +8,13 @@ class Composition:
 
     id: str
     name: str
-
     core_champions: List[str]
     core_items: List[str]
     main_synergies: List[str]
-
     recommended_level: int
+
+    winrate: float
+    pickrate: float
 
 
 @dataclass

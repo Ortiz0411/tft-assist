@@ -1,6 +1,7 @@
 from typing import List
 from domain.game_state import GameState
 
+
 class StrategyRecommendation:
     def __init__(self, name: str, score: float, reason: str):
         self.name = name
